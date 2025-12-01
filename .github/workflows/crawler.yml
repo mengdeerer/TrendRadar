@@ -111,7 +111,7 @@ jobs:
               echo "✅ Successfully pushed on attempt $i"
               exit 0
             }
-            echo "⚠️ Attempt $i failed, waiting $((i*3)) seconds... "
+            echo "⚠️ Attempt $i failed, waiting $((i*3)) seconds..."
             sleep $((i * 3))
           done
           
